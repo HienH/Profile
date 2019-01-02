@@ -18,13 +18,18 @@ const Image = () => {
         <Col xs={12} md={4} className="profile_info" > <img className="profile_img" src={profile} />
           <div className="profile_text">
             <p><IoMdPin color='#cc0605' /> London,UK</p>
-            <SocialIcon url="http://twitter.com/jaketrent" />
 
-            <p>social media stuff: linkin,github,tewitter </p>
-            <p>github</p>
-            <p>hackatons</p>
-            <p>My languages: </p>
-            <p>hobbies</p>
+
+            <p> Attended Hackatons: 3 </p>
+            <p>Languages: JavaScript,React,Python </p>
+            <p>Hobbies: </p>
+            <p>Find me</p>
+            <p>
+              <SocialIcon url="https://github.com/HienH/" bgColor='#ffffff' style={{ height: 80, width: 80, margin: '10px' }} />
+              <a href="#"> HienH</a>
+              <SocialIcon url="https://www.linkedin.com/in/hien-hang-871226122/" bgColor='#0077B5' />
+            </p>
+
           </div>
         </Col>
         <Col xs={12} md={7} className="profile_intro" >
