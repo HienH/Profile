@@ -1,32 +1,51 @@
-.App {
+body {
+  background-image: url(./components/Images/background.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+/* #############Profile################ */
+.profile_img {
+  border-radius: 30%;
+  height: 40%;
+  margin-top: 45px
+}
+
+
+.profile_info {
+  background-color: black;
   text-align: center;
+  z-index: 10;
+  height: 85vh;
+  margin: 30px;
+  margin-top: 60px;
+  margin-right: 0px;
+  margin-left: 70px;
+  opacity: 0.8;
+
+
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.profile_intro {
+  background-color: azure;
+  opacity: 0, 99;
+  padding: 60px;
+  height: 85vh;
+  margin: 30px;
+  margin-left: 0px;
+  margin-top: 60px;
+  opacity: 0.85;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile_text {
+  margin: 10px;
+  font-size: 25px;
+  color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* #############info_text################# */
