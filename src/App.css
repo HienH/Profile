@@ -1,10 +1,9 @@
-body {
+.App {
   background-image: url(./components/Images/background.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-
 }
 
 /* #############Profile################ */
@@ -74,7 +73,7 @@ body {
 
 /* ############# projects ################# */
 .projects {
-  /* margin-top: 25px; */
+  text-align: center;
 }
 
 .projects p {
@@ -88,9 +87,9 @@ body {
 }
 
 .header {
+  font-size: 20px;
   padding: 0;
-  margin: 0%;
-  font-size: 22px;
+  margin: 9px;
   text-decoration: underline;
   /* margin-left: 20px; */
 
@@ -99,4 +98,16 @@ body {
 .DS {
   margin-top: 15px;
   margin-left: 20px;
+}
+
+.colour {
+  background-color: aqua;
+  display: inline;
+}
+
+
+
+.colour1 {
+  background-color: green;
+
 }
