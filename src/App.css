@@ -11,7 +11,7 @@ body {
 .profile_img {
   border-radius: 30%;
   height: 40%;
-  margin-top: 45px
+  margin-top: 25px
 }
 
 
@@ -28,24 +28,75 @@ body {
 
 
 
+
 }
 
 .profile_intro {
   background-color: azure;
   opacity: 0, 99;
-  padding: 60px;
+  padding: 40px;
+  padding-top: 20px;
   height: 85vh;
   margin: 30px;
   margin-left: 0px;
   margin-top: 60px;
   opacity: 0.85;
+  font-size: 18px;
 
 }
 
 .profile_text {
   margin: 10px;
-  font-size: 25px;
+  font-size: 20px;
   color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+
 }
 
-/* #############info_text################# */
+.name {
+  font-size: 40px;
+
+}
+
+.label {
+  font-size: 17px;
+
+}
+
+/* #############contact################# */
+.socialmedia {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 45px;
+
+}
+
+/* #############Right side################# */
+
+/* ############# projects ################# */
+.projects {
+  /* margin-top: 25px; */
+}
+
+.projects p {
+  font-size: 14px;
+}
+
+.image {
+  /* border: 1px solid red; */
+  padding-right: 8px;
+
+}
+
+.header {
+  padding: 0;
+  margin: 0%;
+  font-size: 22px;
+  text-decoration: underline;
+  /* margin-left: 20px; */
+
+}
+
+.DS {
+  margin-top: 15px;
+  margin-left: 20px;
+}
