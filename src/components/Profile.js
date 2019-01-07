@@ -55,6 +55,7 @@ const Profile = () => {
                         </div>
                     </Col>
                     <Col xs={12} lg={8} className="profile_intro" >
+                    
                         <Row>
                             <Col lg={12}>
 
@@ -74,7 +75,9 @@ const Profile = () => {
                         <Row className="projects">
                             <Col lg ={8} >
                             <h4 className ="header">Front End:</h4>
+                            <Grid>
                             <Row>
+
 
                                 <Col lg={4} >
                                     
@@ -140,7 +143,7 @@ const Profile = () => {
                             </Col>
 
                            </Row>
-
+                           </Grid>
                            </Col>
                            <h3 className = "header">Data Science:</h3>
 
