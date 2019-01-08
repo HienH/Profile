@@ -79,7 +79,7 @@ const Profile = () => {
                             <Row>
 
 
-                                <Col lg={4} >
+                                <Col lg={2} >
                                     
                                     <p>
                                         <a href=" https://personaltrainer.netlify.com/"> Personal trainer website 
@@ -89,7 +89,7 @@ const Profile = () => {
                                           </a>
                                     </p>
                                 </Col>
-                                <Col lg={4} className="display">                                    
+                                <Col lg={2} className="display">                                    
                                     
                                     <p >
                                         
@@ -103,7 +103,7 @@ const Profile = () => {
                                 
                                 </Col>
 
-                                <Col lg={4} className="display">     
+                                <Col lg={2} className="display">     
                                 <p>                              
                                         <a href=" https://lashwebsite.netlify.com/" > Lash extension website  <strong> (HTML & CSS )</strong> <br/>
                                                   <img src={lash} style={{ height: '130px', width: '200px' }} className="image" /> </a> 
@@ -111,7 +111,7 @@ const Profile = () => {
                                 </Col>
                            </Row>
                            <Row>
-                           <Col lg={4} className="display">       
+                           <Col lg={2} className="display">       
                            <p>
                                         <a href="https://weather-api.netlify.com/">
                                             <img src={weather} style={{ height: '130px', width: '200px' }} className="image" />
@@ -120,7 +120,7 @@ const Profile = () => {
                                         </a>
                                     </p>
                             </Col>
-                            <Col lg={4} className="display">   
+                            <Col lg={2} className="display">   
                             
                             <p>
                                         <a href="https://pokemonbmi.netlify.com/">
@@ -131,7 +131,7 @@ const Profile = () => {
                                     </p>
                                         
                             </Col>
-                            <Col lg={4} className="display">   
+                            <Col lg={2} className="display">   
                             <p>
                                         <a href="https://hienh.github.io/hien_bootstrapWIT/">
                                             <img src={witweb} style={{ height: '130px', width: '200px' }} className="image" />
