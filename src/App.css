@@ -34,7 +34,7 @@
   background-color: azure;
   opacity: 0, 99;
   padding: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   height: 85vh;
   margin: 30px;
   margin-left: 0px;
@@ -46,6 +46,7 @@
 
 .profile_text {
   margin: 10px;
+  margin-left: 0px;
   font-size: 20px;
   color: whitesmoke;
   font-family: 'Poppins', sans-serif;
@@ -89,7 +90,7 @@
 .header {
   font-size: 20px;
   padding: 0;
-  margin: 9px;
+  margin: 4px;
   text-decoration: underline;
   /* margin-left: 20px; */
 
