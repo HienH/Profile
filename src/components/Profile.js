@@ -54,7 +54,7 @@ const Profile = () => {
                             </Row>
                         </div>
                     </Col>
-                    <Col xs={12} lg={8} className="profile_intro" >
+                    <Col  lg={8} className="profile_intro" >
                     
                         <Row>
                             <Col lg={12}>
@@ -67,7 +67,7 @@ const Profile = () => {
                             <p>
                                 Currently, I am enrolled in the BT furtHer programme,  a full time intensive coding bootcamp that focuses on full stack development; covering web development, python, databases and TDD which runs until February2019
                         </p>
-                            <p>What i am looking for </p>
+                            <p>I am looking to apart of a innovative team that would constantly push me out of comfort zone. I want to be challenged, as I am a keen learner and it will help me develop and learn faster. </p>
                             <hr />
                             <h3>Here are some projects I have built  </h3>
                             </Col>
