@@ -38,13 +38,13 @@ const Profile = () => {
                             <Row>
                                 <p className="socialmedia">Find me </p>
 
-                                <Col xs={6}>
+                                <Col xs={6} className = "icons">
                                     <p>
                                         <SocialIcon url="https://github.com/HienH/" bgColor='#ffffff' style={{ height: 60, width: 60, margin: 4 }} />
                                         <a href="https://github.com/HienH/" >Github</a>
                                     </p>
                                 </Col>
-                                <Col xs={6}>
+                                <Col xs={6} className = "icons">
 
                                     <p>
                                         <SocialIcon url="https://www.linkedin.com/in/hien-hang-871226122/" bgColor='#0077B5' style={{ height: 60, width: 60, margin: 4 }} />
@@ -77,21 +77,18 @@ const Profile = () => {
                             <h4 className ="header">Front End:</h4>
                             <Grid>
                             <Row>
-
-
-                                <Col lg={2} >
-                                    
-                                    <p>
+                                <Col md={2} className = "text">
+                                 <p>
                                         <a href=" https://personaltrainer.netlify.com/"> Personal trainer website 
                                         <strong>  (REACT) </strong> 
                                         <br/>
                                          <img src={gym} style={{ height: '130px', width: '200px' }} className="image" />
                                           </a>
-                                    </p>
+                                          </p>
                                 </Col>
-                                <Col lg={2} className="display">                                    
+                                <Col md={2} className="text">                                    
                                     
-                                    <p >
+                                    <p>
                                         
 
                                         <a href="https://searchtv.netlify.com/">  Tv series search
@@ -99,11 +96,11 @@ const Profile = () => {
                                       <br/>
                                             <img src={tvseries} style={{ height: '130px', width: '200px' }} className="image" />
                                         </a>
-                                    </p>
-                                
+                                    
+                                        </p>
                                 </Col>
 
-                                <Col lg={2} className="display">     
+                                <Col md={2} className="text">     
                                 <p>                              
                                         <a href=" https://lashwebsite.netlify.com/" > Lash extension website  <strong> (HTML & CSS )</strong> <br/>
                                                   <img src={lash} style={{ height: '130px', width: '200px' }} className="image" /> </a> 
@@ -111,7 +108,7 @@ const Profile = () => {
                                 </Col>
                            </Row>
                            <Row>
-                           <Col lg={2} className="display">       
+                           <Col md={2} className="text">       
                            <p>
                                         <a href="https://weather-api.netlify.com/">
                                             <img src={weather} style={{ height: '130px', width: '200px' }} className="image" />
@@ -120,7 +117,7 @@ const Profile = () => {
                                         </a>
                                     </p>
                             </Col>
-                            <Col lg={2} className="display">   
+                            <Col md={2} className="text">   
                             
                             <p>
                                         <a href="https://pokemonbmi.netlify.com/">
@@ -131,7 +128,7 @@ const Profile = () => {
                                     </p>
                                         
                             </Col>
-                            <Col lg={2} className="display">   
+                            <Col md={2} className="text">   
                             <p>
                                         <a href="https://hienh.github.io/hien_bootstrapWIT/">
                                             <img src={witweb} style={{ height: '130px', width: '200px' }} className="image" />
@@ -147,7 +144,7 @@ const Profile = () => {
                            </Col>
                            <h3 className = "header">Data Science:</h3>
 
-                           <Col lg={4} >
+                           <Col md={4} className="text" >
                                     <p>
                                         <li><a href="https://nbviewer.jupyter.org/github/hienh/titanic/blob/master/Titanic.ipynb">
                                             Kaggle Titanic challenge <strong> (Python)  </strong> - </a>

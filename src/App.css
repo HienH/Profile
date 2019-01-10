@@ -75,6 +75,9 @@
 /* ############# projects ################# */
 .projects {
   text-align: center;
+  background-color: black;
+  opacity: 0, 99;
+
 }
 
 .projects p {
@@ -92,6 +95,7 @@
   padding: 0;
   margin: 4px;
   text-decoration: underline;
+  color: whitesmoke;
   /* margin-left: 20px; */
 
 }
@@ -102,7 +106,7 @@
 }
 
 .colour {
-  background-color: aqua;
+  background-color: black;
   display: inline;
 }
 
@@ -110,5 +114,21 @@
 
 .colour1 {
   background-color: green;
+
+}
+
+.icons p {
+  background-color: black;
+  opacity: 0, 99;
+
+}
+
+.text a {
+  color: whitesmoke;
+
+}
+
+.text p {
+  color: whitesmoke;
 
 }
